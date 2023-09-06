@@ -25,7 +25,7 @@ export default {
     <div>
         <div class="container">
             <div class="fixed-bar">
-                <div class="row align-items-center justify-content-between bg-secondary">
+                <div class="row align-items-center justify-content-between p-1">
                     <div class="col">
                         <a href="#">
                             LOGO
@@ -40,19 +40,19 @@ export default {
                                 </button>
                                 <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
                                     <ul class="navbar-nav ml-auto">
-                                        <li class="nav-item">
+                                        <li class="nav-item mx-2">
                                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item mx-2">
                                             <a class="nav-link" href="#">About</a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item mx-2">
                                             <a class="nav-link" href="#">Skills</a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item mx-2">
                                             <a class="nav-link" href="#">Projects</a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item mx-2">
                                             <a class="nav-link" href="#">Contacts</a>
                                         </li>
                                     </ul>
@@ -73,5 +73,11 @@ export default {
         left: 25%;
         top: 0;
         right: 25%;
+    }
+
+    li{
+        a{
+            font-size: 20px;
+        }
     }
 </style>
