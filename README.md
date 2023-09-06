@@ -1,3 +1,4 @@
 # Vue 3 + Vite
-# Sass 
-Portfolio 
+Personal Portfolio.
+
+(Sass + Bootstrap + Fontawesome + )
