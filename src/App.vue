@@ -1,14 +1,19 @@
-<script setup>
-import Appheader from './pages/AppHeader.vue';
+<script>
+import AppHeader from './components/AppHeader.vue';
 
+export default{
+  components:{
+    AppHeader
+  }
+}
 </script>
 
 <template>
   <div>
-
+    <AppHeader/>
   </div>
 </template>
 
-<style scoped>
+<style lang="scss">
 
 </style>
