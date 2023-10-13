@@ -5,9 +5,9 @@ export default {
 </script>
 
 <template lang="">
-    <div class="bg">
+    <div class="bg" id="about">
         <div class="container">
-            <div class="row justify-content-center align-items-center" id="about">
+            <div class="row justify-content-center align-items-center" id="content-section">
                 <div class="col-12 col-md-6">
                     <h2>About Me</h2>
                     <p>
@@ -32,7 +32,7 @@ export default {
     .container{
         height: 100vh;
 
-        #about{
+        #content-section{
             height: 100vh;
         }
     }

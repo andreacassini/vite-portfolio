@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template lang="">
-    <div>
+    <div id="home">
         <div class="container">
             <!-- JUMBOTRON -->
             <div class="row align-items-center" id="jumbotron">
