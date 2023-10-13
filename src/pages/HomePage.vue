@@ -1,4 +1,4 @@
-<script>
+    <script>
 export default {
     name:"HomePage"
 }
@@ -18,7 +18,7 @@ export default {
                     </h5>
                     <button>
                         <i class="fa-solid fa-cloud-arrow-down" style="color: #000000;"></i>Resume
-                    </button>
+                                            </button>
                 </div>
             </div>
         </div>
