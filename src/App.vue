@@ -2,12 +2,14 @@
 import AppHeader from './components/AppHeader.vue';
 import HomePage from './pages/HomePage.vue';
 import About from './pages/About.vue';
+import Skills from './pages/Skills.vue';
 
 export default{
   components:{
     AppHeader,
     HomePage,
-    About
+    About,
+    Skills
   }
 }
 </script>
@@ -18,6 +20,8 @@ export default{
     <HomePage/>
     <hr>
     <About/>
+    <hr>
+    <Skills/>
   </div>
 </template>
 
