@@ -62,10 +62,10 @@ export default {
                                             <a class="nav-link" href="#skills">Skills</a>
                                         </li>
                                         <li class="nav-item mx-2">
-                                            <a class="nav-link" href="#">Projects</a>
+                                            <a class="nav-link" href="#projects">Projects</a>
                                         </li>
                                         <li class="nav-item mx-2">
-                                            <a class="nav-link" href="#">Contacts</a>
+                                            <a class="nav-link" href="#contacts">Contacts</a>
                                         </li>
                                     </ul>
                                 </div>
